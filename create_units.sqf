@@ -57,6 +57,9 @@ createPatrol = {
 
 	_pos = [_pos, 0, 25, 0, 0, 0, 0, [], [_pos]] call BIS_fnc_findSafePos;
 	
+	_group = createGroup west;
+	_group enableDynamicSimulation true;
+	
 	_unit = _group createUnit [unit_spawnlist_patrol select 0, _pos, [], 0, "FORM"];
 	[_unit] call file_unit_init;
 	zues1 addCuratorEditableObjects [[_unit]];
