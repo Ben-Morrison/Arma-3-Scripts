@@ -1,2 +1,2 @@
 # Arma-3-Scripts
-Scripts for my Arma 3 multuplayer missions
+Some scripts for my multiplayer Arma 3 missions
