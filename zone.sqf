@@ -1,3 +1,11 @@
+/*
+	Author: Ben Morrison
+	Date: 29 September 2017
+	Purpose: This is a server side script that detects players outside of the play zone.
+	When a player goes outside of the play zone a timer is started, when the timer reaches 0, the player dies.
+	The timer is cancelled by the player returning to the play zone.
+*/
+
 players_zone = [];
 
 fnc_zone = {
