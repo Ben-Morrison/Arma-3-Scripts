@@ -2,7 +2,7 @@
 	Author: Ben Morrison
 	Date: 29 September 2017
 	Description: This is a client side script that creates a map marker for each player connected to the server, and for each vehicle with players inside of it.
-	Player markers display the player group and name, aand change color if the player is alive, incapacitated, or dead.
+	Player markers display the player group and name, and change color if the player is alive, incapacitated, or dead.
 	Vehicle markers display the vehicle type and the name of each player that is inside of it.
 */
 
